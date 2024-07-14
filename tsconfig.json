@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["vitest/globals"],
+    "rootDir": "./src",
+    "outDir": "dist",
+    "baseUrl": "./", // Base directory to resolve non-relative module names
+    "target": "ESNext", // Use the latest ECMAScript version
+    "module": "ESNext", // Use ECMAScript modules
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file casing
+    "strict": true, // Enable all strict type-checking options
+    "skipLibCheck": true, // Skip type checking of all declaration files
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["src", "tests"], // Include src and tests directories in the project
+  "exclude": ["node_modules"]
+}
